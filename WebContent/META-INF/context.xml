@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Environment name="tjndi"	value="JNDI 你好" 
+		type="java.lang.String" />
+<WatchedResource>WEB-INF/web.xml</WatchedResource>
+<Resource name="jdbc/stu"
+	auth="Container"
+	type="javax.sql.DataSource"
+	maxActive="100"
+	maxIdle="30"
+	maxWait="123"
+	username="root"
+	password="123456"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/student">
+
+</Resource>
+</Context>
